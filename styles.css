@@ -1,0 +1,75 @@
+@font-face {
+    font-family: dongle-bold;
+    src: url(fonts/Dongle-Bold.ttf);
+}
+@font-face {
+		font-family: lineto;
+		src: url(fonts/Brown-Regular.ttf);
+}
+
+body{
+		margin: 0;
+		background-color: #FFDB70;
+/*		background-color: rgb(240,240,230);*/
+    overscroll-behavior-y: none;
+		font-family: lineto, serif;
+	  color: white;
+/*	  color: black;*/
+}
+
+.loader {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+		opacity: 100%;
+}
+
+
+
+.title{
+    font-family: dongle-bold, sans-serif;
+		position: fixed;
+		left: 50%;
+		transform: translate(-50%,0);
+		top: 20%;
+    font-size:30px;
+    letter-spacing: 10px;
+}
+
+p{
+	position: fixed;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, 100px);
+	text-align: center;
+}
+.site-footer{
+    list-style-type: none;
+		position: fixed;
+		font-size: 15px;
+		z-index: 10;
+		bottom: 10px;
+}
+.site-footer li{
+		padding-left: 20px;
+    text-decoration: none;
+}
+.site-footer li a{
+    text-decoration: none;
+    color: black;
+}
+.site-footer li a:hover{
+    text-decoration: underline;
+}
+
+#bean{
+	position: fixed;
+	right:10px;
+	bottom:10px;
+}
